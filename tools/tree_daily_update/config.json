@@ -1,0 +1,57 @@
+{
+  "workspace": "D:/AI/宏观框架分析",
+  "python": "C:/Users/li/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "tree_sheet": "重点策略跟踪情况(V2.5)",
+  "front_sheets": ["A股港股", "中债", "中国宏观", "海外数据"],
+  "base_sheets": ["宏观数据", "指数走势"],
+  "helper_sheet": "辅助数据",
+  "tree_columns": {
+    "indicator": 4,
+    "code": 10,
+    "current": 11,
+    "date": 12,
+    "change": 13
+  },
+  "mandatory_sources": [
+    {"name": "中国:银行结售汇差额:当月值", "code": "M5207849", "source_sheet": "宏观数据", "tree_row": 26, "frequency": "月度", "tree_scale": 1},
+    {"name": "ETF净流入", "code": "ETF市场申赎净流入", "source_sheet": "A股港股", "tree_row": 56, "frequency": "日度", "tree_scale": 1},
+    {"name": "上证沪港通AH溢价指数", "code": "H50066.CSI", "source_sheet": "指数走势", "tree_row": 66, "frequency": "日度", "tree_scale": 1},
+    {"name": "美国中小企业乐观指数", "code": "G1131647", "source_sheet": "宏观数据", "tree_row": 101, "frequency": "月度", "tree_scale": 1},
+    {"name": "美国:核心CPI:季调:同比", "code": "G0000030", "source_sheet": "宏观数据", "tree_row": 111, "frequency": "月度", "tree_scale": 0.01},
+    {"name": "标普500指数", "code": "SPX.GI", "source_sheet": "指数走势", "tree_row": 114, "frequency": "日度", "tree_scale": 1},
+    {"name": "纳斯达克指数", "code": "IXIC.GI", "source_sheet": "指数走势", "tree_row": 115, "frequency": "日度", "tree_scale": 1},
+    {"name": "道琼工业指数", "code": "DJI.GI", "source_sheet": "指数走势", "tree_row": 116, "frequency": "日度", "tree_scale": 1},
+    {"name": "全球地缘政治风险指数", "code": "W5726665", "source_sheet": "宏观数据", "tree_row": 130, "frequency": "月度", "tree_scale": 1}
+  ],
+  "manual_matches": {
+    "银行结售汇差额": "M5207849",
+    "ETF净流入": "ETF市场申赎净流入",
+    "AH溢价": "H50066.CSI",
+    "中小企业乐观": "G1131647",
+    "核心CPI": "G0000030",
+    "地缘政治风险": "W5726665"
+  },
+  "stock_index_pct_change_codes": [
+    "000001.SH",
+    "399001.SZ",
+    "000300.SH",
+    "399006.SZ",
+    "HSI.HI",
+    "HSTECH.HI",
+    "SPX.GI",
+    "IXIC.GI",
+    "DJI.GI"
+  ],
+  "formula_error_whitelist": [
+    {"sheet": "辅助数据", "terms": ["#N/A"], "reason": "用于趋势图跳过空点的占位值"}
+  ],
+  "stray_error_cells": [
+    {"sheet": "A股成交额换手率测试1", "cell": "AB140", "action": "clear", "reason": "孤立测试公式，不参与前台数据"}
+  ],
+  "required_tree_chart_rows": [85],
+  "deep_audit_script": "codex_tmp/20260605_final_delivery_audit/audit_delivery_tree.py",
+  "output_name_patterns": {
+    "daily_postprocessed_suffix": "_图表缓存修正.xlsx",
+    "audit_summary": "audit_summary.json"
+  }
+}

@@ -1,0 +1,20 @@
+# WPS / Excel temporary files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Local scratch space
+codex_tmp/
+
+# Screenshots and transient images
+*.png
+
+# Local environment
+.env
+.venv/
+node_modules/
+
+# OS metadata
+Thumbs.db
+.DS_Store
+

@@ -1,0 +1,336 @@
+{
+  "daily": {
+    "path": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新_图表缓存修正.xlsx",
+    "zip_test": null,
+    "formula_errors": {
+      "count": 527,
+      "by_sheet": {
+        "辅助数据": 527
+      },
+      "sample": [
+        {
+          "sheet": "辅助数据",
+          "cell": "BI1",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI2",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI3",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI4",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI7",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "S9",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "T9",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "AY9",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI9",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "S10",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "T10",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "AY10",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI10",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "S12",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "T12",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "AY12",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "BI12",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "B13",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "F13",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "辅助数据",
+          "cell": "G13",
+          "value": "#N/A"
+        }
+      ]
+    }
+  },
+  "tree": {
+    "path": "D:\\AI\\宏观框架分析\\（0608）TREE宏观分析数据资讯V1_新流程Wind更新复核版.xlsx",
+    "zip_test": null,
+    "formula_errors": {
+      "count": 36,
+      "by_sheet": {
+        "稳健进取投资产品": 2,
+        "稳健进取投资产品(1)": 2,
+        "稳健进取投资产品(2)": 2,
+        "稳健进取投资产品(3)": 2,
+        "稳健进取投资产品(1)(1)": 2,
+        "稳健进取投资产品(2)(1)": 2,
+        "稳健进取投资产品(4)": 2,
+        "稳健进取投资产品(1)(2)": 2,
+        "稳健进取投资产品(2)(2)": 2,
+        "稳健进取投资产品(3)(1)": 2,
+        "稳健进取投资产品(1)(1)(1)": 2,
+        "稳健进取投资产品(2)(1)(1)": 2,
+        "稳健进取投资产品(5)": 2,
+        "稳健进取投资产品(1)(3)": 2,
+        "稳健进取投资产品(2)(3)": 2,
+        "稳健进取投资产品(3)(2)": 2,
+        "稳健进取投资产品(1)(1)(2)": 2,
+        "稳健进取投资产品(2)(1)(2)": 2
+      },
+      "sample": [
+        {
+          "sheet": "稳健进取投资产品",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(1)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(1)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(2)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(2)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(3)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(3)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(1)(1)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(1)(1)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(2)(1)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(2)(1)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(4)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(4)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(1)(2)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(1)(2)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(2)(2)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(2)(2)",
+          "cell": "F796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(3)(1)",
+          "cell": "E796",
+          "value": "#N/A"
+        },
+        {
+          "sheet": "稳健进取投资产品(3)(1)",
+          "cell": "F796",
+          "value": "#N/A"
+        }
+      ]
+    },
+    "against_daily": {
+      "resolved_rows": 114,
+      "trend_rows": 114,
+      "tree_chart_rows": 114,
+      "unmatched_count": 11,
+      "unmatched_sample": [
+        {
+          "row": 27,
+          "name": "关注货币政策报告",
+          "code": "—"
+        },
+        {
+          "row": 45,
+          "name": "净利润\n[单位] 亿元",
+          "code": "—"
+        },
+        {
+          "row": 57,
+          "name": "公募基金募集：",
+          "code": "—"
+        },
+        {
+          "row": 71,
+          "name": "债券市场交易总金额\n（包含银行间交易所，上海、深圳、北京交易所）",
+          "code": "—"
+        },
+        {
+          "row": 77,
+          "name": "债券市场交易总金额\n（包含银行间交易所，上海、深圳、北京交易所）",
+          "code": "—"
+        },
+        {
+          "row": 84,
+          "name": "隔夜逆回购利率",
+          "code": "—"
+        },
+        {
+          "row": 99,
+          "name": "ISM制造业指数-新订单",
+          "code": "—"
+        },
+        {
+          "row": 118,
+          "name": "CNN恐惧与贪婪指数：",
+          "code": "—"
+        },
+        {
+          "row": 127,
+          "name": "①美联储降息预期",
+          "code": "—"
+        },
+        {
+          "row": 129,
+          "name": "③ 地缘局势：",
+          "code": "—"
+        },
+        {
+          "row": 135,
+          "name": "SPDR 黄金 ETF 持仓：",
+          "code": "—"
+        }
+      ],
+      "value_mismatch_count": 0,
+      "value_mismatch_sample": [],
+      "date_mismatch_count": 0,
+      "date_mismatch_sample": [],
+      "change_mismatch_count": 0,
+      "change_mismatch_sample": [],
+      "missing_chart_count": 0,
+      "missing_chart_sample": [],
+      "chart_last_mismatch_count": 0,
+      "chart_last_mismatch_sample": [],
+      "chart_style_issue_count": 0,
+      "chart_style_issue_sample": [],
+      "tga": {
+        "row": 85,
+        "current": 845722,
+        "date": "2026-06-03",
+        "has_chart": true,
+        "chart": {
+          "point_count": 60,
+          "last": 845722.0,
+          "srgb": [
+            "C00000"
+          ],
+          "majorGridlines_count": 0,
+          "noFill_count": 4
+        }
+      }
+    }
+  },
+  "summary": {
+    "pass": true
+  }
+}

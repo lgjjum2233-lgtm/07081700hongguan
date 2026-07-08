@@ -1,0 +1,829 @@
+{
+  "started_at": "2026-06-08T08:51:58",
+  "input_daily": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新.xlsx",
+  "input_tree": "D:\\AI\\宏观框架分析\\（0605）TREE宏观分析数据资讯V8_TGA趋势图补充复核版.xlsx",
+  "postprocess_daily": {
+    "input": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新.xlsx",
+    "output": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新_图表缓存修正.xlsx",
+    "charts_seen": 167,
+    "charts_updated": 167,
+    "charts_not_updated": 0,
+    "chart_last_current_mismatch_count": 0,
+    "stray_error_cells_cleared": 1,
+    "mismatch_sample": []
+  },
+  "sync_tree": {
+    "input_daily": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新_图表缓存修正.xlsx",
+    "input_tree": "D:\\AI\\宏观框架分析\\（0605）TREE宏观分析数据资讯V8_TGA趋势图补充复核版.xlsx",
+    "output": "D:\\AI\\宏观框架分析\\（0608）TREE宏观分析数据资讯V1_新流程Wind更新复核版.xlsx",
+    "unmatched_count": 11,
+    "unmatched_sample": [
+      {
+        "row": 27,
+        "name": "关注货币政策报告",
+        "code": "—"
+      },
+      {
+        "row": 45,
+        "name": "净利润\n[单位] 亿元",
+        "code": "—"
+      },
+      {
+        "row": 57,
+        "name": "公募基金募集：",
+        "code": "—"
+      },
+      {
+        "row": 71,
+        "name": "债券市场交易总金额\n（包含银行间交易所，上海、深圳、北京交易所）",
+        "code": "—"
+      },
+      {
+        "row": 77,
+        "name": "债券市场交易总金额\n（包含银行间交易所，上海、深圳、北京交易所）",
+        "code": "—"
+      },
+      {
+        "row": 84,
+        "name": "隔夜逆回购利率",
+        "code": "—"
+      },
+      {
+        "row": 99,
+        "name": "ISM制造业指数-新订单",
+        "code": "—"
+      },
+      {
+        "row": 118,
+        "name": "CNN恐惧与贪婪指数：",
+        "code": "—"
+      },
+      {
+        "row": 127,
+        "name": "①美联储降息预期",
+        "code": "—"
+      },
+      {
+        "row": 129,
+        "name": "③ 地缘局势：",
+        "code": "—"
+      },
+      {
+        "row": 135,
+        "name": "SPDR 黄金 ETF 持仓：",
+        "code": "—"
+      }
+    ],
+    "updated_rows": 114,
+    "filled_code_rows": [
+      102,
+      112,
+      131
+    ],
+    "charts_updated": 114,
+    "chart_rows_updated_sample": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "required_chart_rows": [
+      85
+    ],
+    "missing_chart_fix": {
+      "charts_added": [],
+      "chart_rows_before_count": 114
+    },
+    "colors": {
+      "previous_tree": "D:\\AI\\宏观框架分析\\（0605）TREE宏观分析数据资讯V8_TGA趋势图补充复核版.xlsx",
+      "colored_rows": 43,
+      "actual_colored_rows": 43,
+      "bad_color_count": 0,
+      "extra_color_count": 0,
+      "red_rows": 23,
+      "green_rows": 20,
+      "colored_sample": [
+        {
+          "row": 9,
+          "name": "公开市场操作:货币净投放",
+          "identity": [
+            "code",
+            "M0061614"
+          ],
+          "previous_row": 9,
+          "code": "M0061614",
+          "previous_date": "2026-05-29",
+          "current_date": "2026-06-05",
+          "change": -12871,
+          "change_num": -12871.0,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 15,
+          "name": "①DR001",
+          "identity": [
+            "code",
+            "M1006336"
+          ],
+          "previous_row": 15,
+          "code": "M1006336",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.0182,
+          "change_num": 0.0182,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 16,
+          "name": "②DR007",
+          "identity": [
+            "code",
+            "M1006337"
+          ],
+          "previous_row": 16,
+          "code": "M1006337",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.0343,
+          "change_num": 0.0343,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 17,
+          "name": "③R001",
+          "identity": [
+            "code",
+            "M1001794"
+          ],
+          "previous_row": 17,
+          "code": "M1001794",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.0302,
+          "change_num": 0.0302,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 18,
+          "name": "④R007",
+          "identity": [
+            "code",
+            "M1001795"
+          ],
+          "previous_row": 18,
+          "code": "M1001795",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.014,
+          "change_num": 0.014,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 55,
+          "name": "北向资金成交额（亿港元）：",
+          "identity": [
+            "name",
+            "北向资金成交额（亿港元）"
+          ],
+          "previous_row": 55,
+          "code": "—",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 396.0188,
+          "change_num": 396.0188,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 56,
+          "name": "ETF净流入",
+          "identity": [
+            "code",
+            "ETF市场申赎净流入"
+          ],
+          "previous_row": 56,
+          "code": "ETF市场申赎净流入",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 138.663399803407,
+          "change_num": 138.663399803407,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 59,
+          "name": "融资融券余额（亿元）：",
+          "identity": [
+            "name",
+            "融资融券余额（亿元）"
+          ],
+          "previous_row": 59,
+          "code": "—",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": -2.920686113684,
+          "change_num": -2.920686113684,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 63,
+          "name": "恒生科技指数：",
+          "identity": [
+            "code",
+            "HSTECH.HI"
+          ],
+          "previous_row": 63,
+          "code": "HSTECH.HI",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": -0.0174801421404681,
+          "change_num": -0.0174801421404681,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 64,
+          "name": "南向资金净流入（亿元）：",
+          "identity": [
+            "name",
+            "南向资金净流入（亿元）"
+          ],
+          "previous_row": 64,
+          "code": "—",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": -18.2435,
+          "change_num": -18.2435,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 65,
+          "name": "港股日度成交额（亿港元）：",
+          "identity": [
+            "code",
+            "G8324453"
+          ],
+          "previous_row": 65,
+          "code": "G8324453",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 725.75,
+          "change_num": 725.75,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 66,
+          "name": "上证沪港通AH溢价指数:",
+          "identity": [
+            "code",
+            "H50066.CSI"
+          ],
+          "previous_row": 66,
+          "code": "H50066.CSI",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.0922999999999945,
+          "change_num": 0.0922999999999945,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 69,
+          "name": "2年国债收益率",
+          "identity": [
+            "code",
+            "S0059745"
+          ],
+          "previous_row": 69,
+          "code": "S0059745",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 6.99999999999923e-06,
+          "change_num": 6.99999999999923e-06,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 70,
+          "name": "3年国债收益率",
+          "identity": [
+            "code",
+            "S0059746"
+          ],
+          "previous_row": 70,
+          "code": "S0059746",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 2.49999999999995e-05,
+          "change_num": 2.49999999999995e-05,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 72,
+          "name": "①期限利差：（国债）3Y-1Y",
+          "identity": [
+            "code",
+            "S0059746-M0325686"
+          ],
+          "previous_row": 72,
+          "code": "S0059746-M0325686",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": -0.00239999999999995,
+          "change_num": -0.00239999999999995,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 73,
+          "name": "⑤信用利差：3Y（企业债-国开债）",
+          "identity": [
+            "code",
+            "S0059773-M1004265"
+          ],
+          "previous_row": 73,
+          "code": "S0059773-M1004265",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": -0.0008999999999999,
+          "change_num": -0.0008999999999999,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 74,
+          "name": "⑥信用利差：3Y（城投债-国开债）",
+          "identity": [
+            "code",
+            "M0048434-M1004265"
+          ],
+          "previous_row": 74,
+          "code": "M0048434-M1004265",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": -0.00409999999999999,
+          "change_num": -0.00409999999999999,
+          "expected_rgb": "FF008000"
+        },
+        {
+          "row": 75,
+          "name": "②10年国债收益率",
+          "identity": [
+            "code",
+            "S0059749"
+          ],
+          "previous_row": 75,
+          "code": "S0059749",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.000125999999999999,
+          "change_num": 0.000125999999999999,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 76,
+          "name": "③30年国债收益率",
+          "identity": [
+            "code",
+            "S0059752"
+          ],
+          "previous_row": 76,
+          "code": "S0059752",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.000130000000000003,
+          "change_num": 0.000130000000000003,
+          "expected_rgb": "FFFF0000"
+        },
+        {
+          "row": 78,
+          "name": "①期限利差：（国债）10Y-1Y",
+          "identity": [
+            "code",
+            "S0059749-M0325686"
+          ],
+          "previous_row": 78,
+          "code": "S0059749-M0325686",
+          "previous_date": "2026-06-04",
+          "current_date": "2026-06-05",
+          "change": 0.0077,
+          "change_num": 0.0077,
+          "expected_rgb": "FFFF0000"
+        }
+      ],
+      "bad_color_sample": [],
+      "extra_color_sample": []
+    },
+    "mandatory_rows": [
+      {
+        "row": 26,
+        "name": "中国:银行结售汇差额:当月值",
+        "code": "M5207849",
+        "current": 400.799,
+        "date": "2026-04-30",
+        "change": 241.043,
+        "source": "中国宏观!69",
+        "trend_points": 6
+      },
+      {
+        "row": 56,
+        "name": "ETF净流入",
+        "code": "ETF市场申赎净流入",
+        "current": 143.225438025917,
+        "date": "2026-06-05",
+        "change": 138.663399803407,
+        "source": "A股港股!17",
+        "trend_points": 60
+      },
+      {
+        "row": 66,
+        "name": "上证沪港通AH溢价指数:",
+        "code": "H50066.CSI",
+        "current": 131.1315,
+        "date": "2026-06-05",
+        "change": 0.0922999999999945,
+        "source": "A股港股!16",
+        "trend_points": 60
+      },
+      {
+        "row": 101,
+        "name": "美国中小企业乐观指数(National Federation of Independent Business, or NFIB, Small Business Optimism Index)",
+        "code": "G1131647",
+        "current": 95.9,
+        "date": "2026-04-30",
+        "change": 0.100000000000009,
+        "source": "海外数据!61",
+        "trend_points": 6
+      },
+      {
+        "row": 111,
+        "name": "美国:核心CPI:季调:同比",
+        "code": "G0000030",
+        "current": 0.027,
+        "date": "2026-04-30",
+        "change": 0.001,
+        "source": "海外数据!59",
+        "trend_points": 6
+      },
+      {
+        "row": 114,
+        "name": "标普500指数",
+        "code": "SPX.GI",
+        "current": 7383.74,
+        "date": "2026-06-05",
+        "change": -2.00570000000001,
+        "source": "指数走势!28",
+        "trend_points": 60
+      },
+      {
+        "row": 115,
+        "name": "纳斯达克指数",
+        "code": "IXIC.GI",
+        "current": 25709.43,
+        "date": "2026-06-05",
+        "change": -11.2153,
+        "source": "指数走势!29",
+        "trend_points": 60
+      },
+      {
+        "row": 116,
+        "name": "道琼工业指数",
+        "code": "DJI.GI",
+        "current": 50866.78,
+        "date": "2026-06-05",
+        "change": -6.95150000000001,
+        "source": "指数走势!30",
+        "trend_points": 60
+      },
+      {
+        "row": 130,
+        "name": "全球地缘政治风险指数",
+        "code": "W5726665",
+        "current": 184.177048,
+        "date": "2026-05-31",
+        "change": -66.630233,
+        "source": "海外数据!60",
+        "trend_points": 6
+      }
+    ]
+  },
+  "audit": {
+    "daily": {
+      "path": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新_图表缓存修正.xlsx",
+      "mandatory_source_count": 9,
+      "missing_source_count": 0,
+      "uncovered_wind_source_count": 0,
+      "source_sample": [
+        {
+          "name": "中国:银行结售汇差额:当月值",
+          "code": "M5207849",
+          "expected_sheet": "宏观数据",
+          "found": true,
+          "tree_row": 26,
+          "source_sheet": "宏观数据",
+          "source_row": 147,
+          "date": "2026-04-30",
+          "current": 400.799,
+          "points": 16,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F2"
+        },
+        {
+          "name": "ETF净流入",
+          "code": "ETF市场申赎净流入",
+          "expected_sheet": "A股港股",
+          "found": true,
+          "tree_row": 56,
+          "source_sheet": "A股港股",
+          "source_row": 17,
+          "date": "2026-06-05",
+          "current": 143.225438025917,
+          "points": null,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "front_or_dataset"
+        },
+        {
+          "name": "上证沪港通AH溢价指数",
+          "code": "H50066.CSI",
+          "expected_sheet": "指数走势",
+          "found": true,
+          "tree_row": 66,
+          "source_sheet": "指数走势",
+          "source_row": 9,
+          "date": "2026-06-05",
+          "current": 131.1315,
+          "points": 100,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F2"
+        },
+        {
+          "name": "美国中小企业乐观指数",
+          "code": "G1131647",
+          "expected_sheet": "宏观数据",
+          "found": true,
+          "tree_row": 101,
+          "source_sheet": "宏观数据",
+          "source_row": 150,
+          "date": "2026-04-30",
+          "current": 95.9,
+          "points": 16,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F2"
+        },
+        {
+          "name": "美国:核心CPI:季调:同比",
+          "code": "G0000030",
+          "expected_sheet": "宏观数据",
+          "found": true,
+          "tree_row": 111,
+          "source_sheet": "宏观数据",
+          "source_row": 148,
+          "date": "2026-04-30",
+          "current": 2.7,
+          "points": 15,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F2"
+        },
+        {
+          "name": "标普500指数",
+          "code": "SPX.GI",
+          "expected_sheet": "指数走势",
+          "found": true,
+          "tree_row": 114,
+          "source_sheet": "指数走势",
+          "source_row": 28,
+          "date": "2026-06-05",
+          "current": 7383.74,
+          "points": 97,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F28"
+        },
+        {
+          "name": "纳斯达克指数",
+          "code": "IXIC.GI",
+          "expected_sheet": "指数走势",
+          "found": true,
+          "tree_row": 115,
+          "source_sheet": "指数走势",
+          "source_row": 29,
+          "date": "2026-06-05",
+          "current": 25709.43,
+          "points": 97,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F28"
+        },
+        {
+          "name": "道琼工业指数",
+          "code": "DJI.GI",
+          "expected_sheet": "指数走势",
+          "found": true,
+          "tree_row": 116,
+          "source_sheet": "指数走势",
+          "source_row": 30,
+          "date": "2026-06-05",
+          "current": 50866.78,
+          "points": 97,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F28"
+        },
+        {
+          "name": "全球地缘政治风险指数",
+          "code": "W5726665",
+          "expected_sheet": "宏观数据",
+          "found": true,
+          "tree_row": 130,
+          "source_sheet": "宏观数据",
+          "source_row": 149,
+          "date": "2026-05-31",
+          "current": 184.177048,
+          "points": 17,
+          "wind_formula_covered": true,
+          "wind_formula_anchor": "F2"
+        }
+      ],
+      "missing_sources": [],
+      "uncovered_wind_sources": [],
+      "charts": {
+        "chart_count": 167,
+        "last_mismatch_count": 0,
+        "formula_error_chart_count": 0,
+        "mismatch_sample": [],
+        "formula_error_sample": []
+      },
+      "formula_errors": {
+        "raw_count": 527,
+        "raw_by_sheet": {
+          "辅助数据": 527
+        },
+        "non_whitelist_count": 0,
+        "non_whitelist_sample": [],
+        "tree_sheet_error_count": 0,
+        "tree_sheet_error_sample": []
+      }
+    },
+    "tree": {
+      "path": "D:\\AI\\宏观框架分析\\（0608）TREE宏观分析数据资讯V1_新流程Wind更新复核版.xlsx",
+      "key_rows": {
+        "checked": 9,
+        "mismatch_count": 0,
+        "mismatch_sample": []
+      },
+      "formula_errors": {
+        "raw_count": 36,
+        "raw_by_sheet": {
+          "稳健进取投资产品": 2,
+          "稳健进取投资产品(1)": 2,
+          "稳健进取投资产品(2)": 2,
+          "稳健进取投资产品(3)": 2,
+          "稳健进取投资产品(1)(1)": 2,
+          "稳健进取投资产品(2)(1)": 2,
+          "稳健进取投资产品(4)": 2,
+          "稳健进取投资产品(1)(2)": 2,
+          "稳健进取投资产品(2)(2)": 2,
+          "稳健进取投资产品(3)(1)": 2,
+          "稳健进取投资产品(1)(1)(1)": 2,
+          "稳健进取投资产品(2)(1)(1)": 2,
+          "稳健进取投资产品(5)": 2,
+          "稳健进取投资产品(1)(3)": 2,
+          "稳健进取投资产品(2)(3)": 2,
+          "稳健进取投资产品(3)(2)": 2,
+          "稳健进取投资产品(1)(1)(2)": 2,
+          "稳健进取投资产品(2)(1)(2)": 2
+        },
+        "non_whitelist_count": 36,
+        "non_whitelist_sample": [
+          {
+            "sheet": "稳健进取投资产品",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(1)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(1)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(2)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(2)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(3)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(3)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(1)(1)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(1)(1)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(2)(1)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(2)(1)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(4)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(4)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(1)(2)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(1)(2)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(2)(2)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(2)(2)",
+            "cell": "F796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(3)(1)",
+            "cell": "E796",
+            "value": "#N/A"
+          },
+          {
+            "sheet": "稳健进取投资产品(3)(1)",
+            "cell": "F796",
+            "value": "#N/A"
+          }
+        ],
+        "tree_sheet_error_count": 0,
+        "tree_sheet_error_sample": []
+      },
+      "deep_audit": {
+        "available": true,
+        "dates_stale_count": 0,
+        "dates_checked_rows": 114,
+        "colors_bad_count": 0,
+        "colors_extra_count": 0,
+        "tree_chart_style_issue_count": 0,
+        "tree_key_chart_mismatch_count": 0,
+        "tree_sheet_error_count": 0,
+        "unmatched_count": 11
+      }
+    },
+    "summary": {
+      "pass": true
+    }
+  },
+  "final_daily": "D:\\AI\\宏观框架分析\\20260608日报数据版V1_新流程Wind刷新_图表缓存修正.xlsx",
+  "final_tree": "D:\\AI\\宏观框架分析\\（0608）TREE宏观分析数据资讯V1_新流程Wind更新复核版.xlsx",
+  "summary": {
+    "pass": true
+  }
+}

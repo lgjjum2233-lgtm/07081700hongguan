@@ -1,0 +1,93 @@
+{
+  "input": "20260611日报数据版V2_新增三项宏观指标_Wind刷新_图表缓存修正.xlsx",
+  "output": "20260611月报宏观数据_新增五项指标.xlsx",
+  "macro_sheet": "宏观数据",
+  "old_raw_end": 175,
+  "new_raw_end": 178,
+  "f2_formula": "=[1]!wsd(E2:E178,C2,A2,B2,\"TradingCalendar=SSE\",\"PriceAdj=\",\"rptType=1\",\"Direction=V\",\"Version=1\",\"ShowParams=Y\",\"cols=537;rows=177\")",
+  "moved_rows": {
+    "177": 180,
+    "176": 179
+  },
+  "formula_refs_replaced": 8,
+  "added_macro": [
+    {
+      "code": "M0000272",
+      "name": "中国:固定资产投资累计值",
+      "row": 176
+    },
+    {
+      "code": "G0000003",
+      "name": "美国:GDP:现价:季调:折年数",
+      "row": 177
+    },
+    {
+      "code": "G1109245",
+      "name": "美国:零售和食品服务销售额:季调:当月同比",
+      "row": 178
+    }
+  ],
+  "skipped_existing_macro": [
+    {
+      "code": "M0046166",
+      "name": "中国:一般公共预算支出:累计值",
+      "row": 145
+    },
+    {
+      "code": "G1109077",
+      "name": "美国:所有商业银行:资产:银行信贷:季调",
+      "row": 88
+    }
+  ],
+  "added_front": [
+    {
+      "code": "M0046166",
+      "name": "中国:一般公共预算支出:累计值",
+      "sheet": "中国宏观",
+      "row": 92,
+      "macro_row": 145,
+      "chart_added": true
+    },
+    {
+      "code": "M0000272",
+      "name": "中国:固定资产投资累计值",
+      "sheet": "中国宏观",
+      "row": 93,
+      "macro_row": 176,
+      "chart_added": true
+    },
+    {
+      "code": "G0000003",
+      "name": "美国:GDP:现价:季调:折年数",
+      "sheet": "海外数据",
+      "row": 63,
+      "macro_row": 177,
+      "chart_added": true
+    },
+    {
+      "code": "G1109245",
+      "name": "美国:零售和食品服务销售额:季调:当月同比",
+      "sheet": "海外数据",
+      "row": 64,
+      "macro_row": 178,
+      "chart_added": true
+    }
+  ],
+  "skipped_existing_front": [
+    {
+      "code": "G1109077",
+      "name": "美国:所有商业银行:资产:银行信贷:季调",
+      "sheet": "海外数据",
+      "row": 25
+    }
+  ],
+  "sheet_rows": {
+    "中国宏观": 93,
+    "海外数据": 64
+  },
+  "chart_counts": {
+    "中国宏观": 92,
+    "海外数据": 63
+  },
+  "errors": []
+}

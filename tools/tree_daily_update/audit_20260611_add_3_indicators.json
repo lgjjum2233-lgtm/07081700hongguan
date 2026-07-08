@@ -1,0 +1,57 @@
+{
+  "input": "20260611日报数据版V1_Wind刷新_图表缓存修正.xlsx",
+  "output": "20260611日报数据版V2_新增三项宏观指标.xlsx",
+  "macro_sheet": "宏观数据",
+  "front_sheet": "中国宏观",
+  "old_raw_end": 172,
+  "new_raw_end": 175,
+  "f2_formula": "=[1]!wsd(E2:E175,C2,A2,B2,\"TradingCalendar=SSE\",\"PriceAdj=\",\"rptType=1\",\"Direction=V\",\"Version=1\",\"ShowParams=Y\",\"cols=537;rows=174\")",
+  "moved_rows": {
+    "174": 177,
+    "173": 176
+  },
+  "formula_refs_replaced": 8,
+  "added_macro": [
+    {
+      "code": "M0048264",
+      "name": "中国:金融机构:新增人民币存款:财政存款:累计值",
+      "row": 173
+    },
+    {
+      "code": "M0001427",
+      "name": "中国:社会消费品零售总额:当月值",
+      "row": 174
+    },
+    {
+      "code": "M0039354",
+      "name": "中国:GDP:不变价:当季同比",
+      "row": 175
+    }
+  ],
+  "added_front": [
+    {
+      "code": "M0048264",
+      "name": "中国:金融机构:新增人民币存款:财政存款:累计值",
+      "row": 89,
+      "macro_row": 173,
+      "chart_added": true
+    },
+    {
+      "code": "M0001427",
+      "name": "中国:社会消费品零售总额:当月值",
+      "row": 90,
+      "macro_row": 174,
+      "chart_added": true
+    },
+    {
+      "code": "M0039354",
+      "name": "中国:GDP:不变价:当季同比",
+      "row": 91,
+      "macro_row": 175,
+      "chart_added": true
+    }
+  ],
+  "front_max_row": 91,
+  "front_charts": 90,
+  "errors": []
+}

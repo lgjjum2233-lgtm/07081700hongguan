@@ -1,0 +1,439 @@
+{
+  "input": "20260608日报数据版V1_新流程Wind刷新_图表缓存修正.xlsx",
+  "output": "20260609日报数据版V1_新增指标自动更新底稿.xlsx",
+  "added_macro": [
+    {
+      "code": "M0017142",
+      "name": "SHIBOR:3个月",
+      "row": 151,
+      "kind": "wind"
+    },
+    {
+      "code": "M6404533",
+      "name": "中国:居民部门杠杆率",
+      "row": 152,
+      "kind": "wind"
+    },
+    {
+      "code": "M6404535",
+      "name": "中国:政府部门杠杆率",
+      "row": 153,
+      "kind": "wind"
+    },
+    {
+      "code": "M6404534",
+      "name": "中国:非金融企业部门杠杆率",
+      "row": 154,
+      "kind": "wind"
+    },
+    {
+      "code": "M0096870",
+      "name": "中国:贷款市场报价利率(LPR):1年",
+      "row": 155,
+      "kind": "wind"
+    },
+    {
+      "code": "M0325687",
+      "name": "中国:国债收益率:10年",
+      "row": 156,
+      "kind": "wind"
+    },
+    {
+      "code": "M0046167",
+      "name": "中国:公共财政支出:累计同比",
+      "row": 157,
+      "kind": "wind"
+    },
+    {
+      "code": "M0096886",
+      "name": "中国:地方政府性基金收入:国有土地使用权出让收入:累计同比",
+      "row": 158,
+      "kind": "wind"
+    },
+    {
+      "code": "M5567950",
+      "name": "中国:中央政府债务余额",
+      "row": 159,
+      "kind": "wind"
+    },
+    {
+      "code": "M5405502",
+      "name": "中国:财政赤字率 (赤字/GDP)",
+      "row": 160,
+      "kind": "wind"
+    },
+    {
+      "code": "G1147446",
+      "name": "美国:财政赤字率 (赤字/GDP)",
+      "row": 161,
+      "kind": "wind"
+    },
+    {
+      "code": "M5567876",
+      "name": "GDP总量：中国",
+      "row": 162,
+      "kind": "wind"
+    },
+    {
+      "code": "M6001128",
+      "name": "中国:GDP累计同比贡献率:最终消费支出:支出法",
+      "row": 163,
+      "kind": "wind"
+    },
+    {
+      "code": "M6001129",
+      "name": "中国:GDP累计同比贡献率:资本形成总额:支出法",
+      "row": 164,
+      "kind": "wind"
+    },
+    {
+      "code": "M6001130",
+      "name": "中国:GDP累计同比贡献率:货物和服务净出口:支出法",
+      "row": 165,
+      "kind": "wind"
+    },
+    {
+      "code": "S0029657",
+      "name": "中国:房地产开发投资完成额:累计同比",
+      "row": 166,
+      "kind": "wind"
+    },
+    {
+      "code": "M0008499",
+      "name": "中国:出口金额:美国:累计同比",
+      "row": 167,
+      "kind": "wind"
+    },
+    {
+      "code": "M0007911",
+      "name": "中国:出口金额:东南亚国家联盟:累计同比",
+      "row": 168,
+      "kind": "wind"
+    },
+    {
+      "code": "M0000610",
+      "name": "进出口：中国:贸易差额",
+      "row": 169,
+      "kind": "wind"
+    },
+    {
+      "code": "V6842305",
+      "name": "中国:农产品批发价格指数:猪肉",
+      "row": 170,
+      "kind": "wind"
+    },
+    {
+      "code": "M0000561",
+      "name": "中国:产成品存货:规模以上工业企业:同比",
+      "row": 171,
+      "kind": "wind"
+    },
+    {
+      "code": "S0206721",
+      "name": "中国:利润总额:制造业:累计同比",
+      "row": 172,
+      "kind": "wind"
+    },
+    {
+      "code": "M0325687-G0000891",
+      "name": "中美10年期国债利差 (中-美)",
+      "row": 173,
+      "kind": "formula"
+    }
+  ],
+  "added_front": [
+    {
+      "code": "M0017142",
+      "name": "SHIBOR:3个月",
+      "sheet": "中债",
+      "row": 25,
+      "macro_row": 151,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M6404533",
+      "name": "中国:居民部门杠杆率",
+      "sheet": "中国宏观",
+      "row": 70,
+      "macro_row": 152,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M6404535",
+      "name": "中国:政府部门杠杆率",
+      "sheet": "中国宏观",
+      "row": 71,
+      "macro_row": 153,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M6404534",
+      "name": "中国:非金融企业部门杠杆率",
+      "sheet": "中国宏观",
+      "row": 72,
+      "macro_row": 154,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0096870",
+      "name": "中国:贷款市场报价利率(LPR):1年",
+      "sheet": "中债",
+      "row": 26,
+      "macro_row": 155,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0325687",
+      "name": "中国:国债收益率:10年",
+      "sheet": "中债",
+      "row": 27,
+      "macro_row": 156,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0325687-G0000891",
+      "name": "中美10年期国债利差 (中-美)",
+      "sheet": "中债",
+      "row": 28,
+      "macro_row": 173,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0046168",
+      "name": "中国:公共财政收入:累计值",
+      "sheet": "中国宏观",
+      "row": 73,
+      "macro_row": 144,
+      "chart_added": true,
+      "note": "用户清单写作累计同比，但该代码在旧表中已作为财政收入累计金额使用。"
+    },
+    {
+      "code": "M0046167",
+      "name": "中国:公共财政支出:累计同比",
+      "sheet": "中国宏观",
+      "row": 74,
+      "macro_row": 157,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0096886",
+      "name": "中国:地方政府性基金收入:国有土地使用权出让收入:累计同比",
+      "sheet": "中国宏观",
+      "row": 75,
+      "macro_row": 158,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M5567950",
+      "name": "中国:中央政府债务余额",
+      "sheet": "中国宏观",
+      "row": 76,
+      "macro_row": 159,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M5405502",
+      "name": "中国:财政赤字率 (赤字/GDP)",
+      "sheet": "中国宏观",
+      "row": 77,
+      "macro_row": 160,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "G1147446",
+      "name": "美国:财政赤字率 (赤字/GDP)",
+      "sheet": "海外数据",
+      "row": 62,
+      "macro_row": 161,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M5567876",
+      "name": "GDP总量：中国",
+      "sheet": "中国宏观",
+      "row": 78,
+      "macro_row": 162,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M6001128",
+      "name": "中国:GDP累计同比贡献率:最终消费支出:支出法",
+      "sheet": "中国宏观",
+      "row": 79,
+      "macro_row": 163,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M6001129",
+      "name": "中国:GDP累计同比贡献率:资本形成总额:支出法",
+      "sheet": "中国宏观",
+      "row": 80,
+      "macro_row": 164,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M6001130",
+      "name": "中国:GDP累计同比贡献率:货物和服务净出口:支出法",
+      "sheet": "中国宏观",
+      "row": 81,
+      "macro_row": 165,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "S0029657",
+      "name": "中国:房地产开发投资完成额:累计同比",
+      "sheet": "中国宏观",
+      "row": 82,
+      "macro_row": 166,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0008499",
+      "name": "中国:出口金额:美国:累计同比",
+      "sheet": "中国宏观",
+      "row": 83,
+      "macro_row": 167,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0007911",
+      "name": "中国:出口金额:东南亚国家联盟:累计同比",
+      "sheet": "中国宏观",
+      "row": 84,
+      "macro_row": 168,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0000610",
+      "name": "进出口：中国:贸易差额",
+      "sheet": "中国宏观",
+      "row": 85,
+      "macro_row": 169,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "V6842305",
+      "name": "中国:农产品批发价格指数:猪肉",
+      "sheet": "中国宏观",
+      "row": 86,
+      "macro_row": 170,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "M0000561",
+      "name": "中国:产成品存货:规模以上工业企业:同比",
+      "sheet": "中国宏观",
+      "row": 87,
+      "macro_row": 171,
+      "chart_added": true,
+      "note": ""
+    },
+    {
+      "code": "S0206721",
+      "name": "中国:利润总额:制造业:累计同比",
+      "sheet": "中国宏观",
+      "row": 88,
+      "macro_row": 172,
+      "chart_added": true,
+      "note": ""
+    }
+  ],
+  "skipped_existing_front": [
+    {
+      "code": "G0000891",
+      "name": "美国:国债收益率:10年",
+      "reason": "front_exists",
+      "where": [
+        "海外数据",
+        3
+      ]
+    },
+    {
+      "code": "M0000357",
+      "name": "中国:固定资产投资完成额:制造业:累计同比",
+      "reason": "front_exists",
+      "where": [
+        "中国宏观",
+        44
+      ]
+    },
+    {
+      "code": "M5440435",
+      "name": "中国:固定资产投资完成额:基础设施建设投资:累计同比",
+      "reason": "front_exists",
+      "where": [
+        "中国宏观",
+        45
+      ]
+    },
+    {
+      "code": "S0031525",
+      "name": "期货结算价(活跃合约):布伦特原油",
+      "reason": "front_exists",
+      "where": [
+        "海外数据",
+        36
+      ]
+    },
+    {
+      "code": "M0017126",
+      "name": "中国:制造业PMI",
+      "reason": "front_exists",
+      "where": [
+        "中国宏观",
+        17
+      ]
+    },
+    {
+      "code": "M0001227",
+      "name": "中国:PPI:全部工业品:当月同比",
+      "reason": "front_exists",
+      "where": [
+        "中国宏观",
+        21
+      ]
+    }
+  ],
+  "wind_rows_added": 22,
+  "formula_rows_added": 1,
+  "front_rows_added": 24,
+  "fiscal_old_row": 151,
+  "fiscal_new_row": 174,
+  "new_raw_end": 172,
+  "f2_formula": "=[1]!wsd(E2:E172,C2,A2,B2,\"TradingCalendar=SSE\",\"PriceAdj=\",\"rptType=1\",\"Direction=V\",\"Version=1\",\"ShowParams=Y\",\"cols=533;rows=171\")",
+  "formula_refs_replaced": 4,
+  "chart_counts": {
+    "A股港股": 16,
+    "中债": 27,
+    "中国宏观": 87,
+    "海外数据": 61
+  },
+  "sheet_rows": {
+    "A股港股": 17,
+    "中债": 28,
+    "中国宏观": 88,
+    "海外数据": 62
+  },
+  "errors": []
+}

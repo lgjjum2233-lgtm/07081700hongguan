@@ -1,0 +1,47 @@
+# WPS / Excel temporary files
+~$*.xlsx
+~$*.xls
+~$*.pptx
+*.tmp
+
+# Local scratch and dependency caches
+codex_tmp/
+node_modules/
+work/
+.agents/
+__pycache__/
+*.pyc
+
+# Large archives and generated output trees
+archive/
+outputs/
+00_前端_最新AI产业链文件/
+
+# Inspection/cache artifacts
+*.inspect.ndjson
+*.ndjson
+
+# Images and transient previews
+*.png
+
+# Local environment and OS metadata
+.env
+.venv/
+Thumbs.db
+.DS_Store
+
+# Generated Office files are ignored by default.
+*.xlsx
+*.xls
+*.xlsm
+*.pptx
+*.docx
+
+# Keep current macro project deliverables in Git.
+!20260706日报数据版V1.xlsx
+!（0706V1）TREE宏观分析最新版.xlsx
+!20260624月报宏观数据_扩展2024历史_Wind刷新.xlsx
+!（5月28日）TREE宏观分析数据资讯_指标科普说明_单独版_V1.xlsx
+
+# Non-macro project helper kept out of this repository.
+tools/build_ai_industry_framework.mjs
