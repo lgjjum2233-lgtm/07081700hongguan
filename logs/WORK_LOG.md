@@ -34,7 +34,7 @@
 - 根目录存在 AI 产业链工作簿、`.inspect.ndjson` 检查文件和 `0706宏观日报结论输出最新版(1).pptx`，未完全匹配 `docs/WORKSPACE_INDEX_V1.md` 中“根目录保留文件”的旧列表。
 - 这些文件可能属于其他当前任务或用户临时输出，本次未擅自移动；后续如用户要求整理根目录，再按文件类型归档或更新索引。
 
-### GitHub 项目同步准备
+### GitHub 项目同步
 
 触发原因：
 - 用户要求将项目写入 GitHub 仓库 `https://github.com/lgjjum2233-lgtm/07081700hongguan`，并同步最新日报表和 TREE 表。
@@ -44,6 +44,8 @@
 - 新增根目录 `.gitignore`，默认排除 `archive/`、`outputs/`、`codex_tmp/`、`node_modules/`、检查缓存和一般生成型 Office 文件。
 - 在 `.gitignore` 中对白名单文件放行：`20260706日报数据版V1.xlsx`、`（0706V1）TREE宏观分析最新版.xlsx`、`20260624月报宏观数据_扩展2024历史_Wind刷新.xlsx` 和 `（5月28日）TREE宏观分析数据资讯_指标科普说明_单独版_V1.xlsx`。
 - 新增 `.gitattributes`，将 Office 文件按 binary 处理。
+- 初始化本地 git 仓库，设置远端 `origin=https://github.com/lgjjum2233-lgtm/07081700hongguan.git`。
+- 生成首个提交 `7dfbf6b Initial macro project sync`，并成功推送到远端 `main` 分支。
 
 同步口径：
 - GitHub 仓库纳入项目文档、workflow、工具脚本、日志和当前核心 Excel 文件。

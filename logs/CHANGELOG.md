@@ -7,7 +7,7 @@
 - 将 TREE `写入时间` 规则从分钟级改为日期级；后续默认只写 `yyyy-mm-dd`，不写小时、分钟或秒。
 - 更新 `tools/tree_daily_update/TREE_UPDATE_RULES.md`、`docs/ai_workflows/TREE_UPDATE_WORKFLOW.md` 和近期 TREE 写入时间包装脚本，避免后续继续输出分钟级时间。
 - 同步更新 `tools/tree_daily_update/RUNBOOK.md`、`docs/WORKBOOK_SPEC.md`、`docs/project_info/AI_CONTEXT.md`、`docs/project_info/README.md`、`docs/project_info/AGENTS.md` 和 `scripts/README.md`，清理旧列位和旧日报刷新流程表述。
-- 新增根目录 `README.md`、`.gitignore` 和 `.gitattributes`，准备同步到 GitHub 仓库 `lgjjum2233-lgtm/07081700hongguan`；GitHub 跟踪范围包括项目文档、工具脚本、日志和当前最新日报/TREE 等核心文件，默认排除历史归档、临时输出和检查缓存。
+- 新增根目录 `README.md`、`.gitignore` 和 `.gitattributes`，并同步到 GitHub 仓库 `lgjjum2233-lgtm/07081700hongguan`；GitHub 跟踪范围包括项目文档、工具脚本、日志和当前最新日报/TREE 等核心文件，默认排除历史归档、临时输出和检查缓存。
 - 更新宏观日报结论输出 workflow，补充数据一致性、口径优先级和旧 `指标判断` 冲突处理规则，避免后续根据旧文字误判最新数据。
 - 修正宏观日报结论输出工作日志的引用路径为 `logs/宏观日报结论输出工作日志_20260703.md`。
 
